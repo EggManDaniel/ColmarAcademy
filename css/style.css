@@ -1,0 +1,94 @@
+nav{
+    display: flex;
+
+}
+#box99
+{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+#box99 p{
+    flex-basis: 100px;
+}
+#box1 {
+   
+    background-color: lightgrey;
+    display: flex;
+}
+.image1 {
+    margin: 32px 24px;
+    width: 60%;
+}
+.minibox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#button1{
+  background-color: grey;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+#box2 {
+   
+    display: flex;
+margin-top 32px;
+
+
+}
+.image2 {
+
+    width: 100%;
+   
+}
+.image21 {
+    height: auto;
+    width: 35%;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-width:35%;
+}
+#boxx1,#boxx2,#boxx3{
+    display: flex;
+    align-items: center;
+}
+#boxmania {
+
+   width: 40%;
+   margin: 16px;
+   margin-top: 32px;
+   margin-bottom:32px;
+}
+#toomanyboxes {
+    margin: 32px 24px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#box3 {
+    background-color: lightgrey;
+    text-align: center;
+    height: 500px;
+}
+
+.course {
+    height: auto;
+    padding-right: 32px;
+    max-width: 100%;
+}
+table {
+ display: flex;
+ flex-flow: row wrap;
+ align-content: space-around;
+}
