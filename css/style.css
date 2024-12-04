@@ -78,17 +78,22 @@ margin-top 32px;
 
 #box3 {
     background-color: lightgrey;
-    text-align: center;
-    height: 500px;
+    
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     
 }
 
 .course {
+    
     height: auto;
-    padding-right: 32px;
-    max-width: 100%;
+    padding: 32px;
+    max-width: 60%;
+    box-sizing: border-box;
 }
-table {
- display: flex;
- flex-flow: row wrap;
- align-content: space-around;
+#motherbox {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 32px 72px;
 }
